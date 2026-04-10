@@ -1,0 +1,12 @@
+O que o sistema precisa fazer
+Sistema consiste em um portão de duas portas que funcione com 4 botões, que quando fechados acione as LEDs vermelhas de cada portão e quando abertos as LED verdes. 
+Haverá também uma LED amarela para mostrar que o portão está em movimento e uma LED azul para mostrar que o bortão está aberto.
+Quando acionar o botão 1, abrirá a porta esquerda e assim que ascionar o botão2 abrirá a porta da direita. O botão3 será para abrir os dois portões ao mesmo tempo e o botão4 para fechar os dois portões.
+
+lista de passos
+Montar um circuito com arduino, 2 servos, 4 botões, um protoboard e 6 LEDs
+Os servos precisam ligar o solo nos GND, a potencia ligado ao 5v e o sinal ligado as saídas
+começa com as duas leds vermelhas ligadas para mostrar que os portões estão fechados. Após isso, o portão esquerdo deve abrir desligando a led vermelha e ligando a led verde, enquanto o portão se movimenta a led
+amarela ascende e a led azul ascende também para mostrar que o portão está aberto. Depois o portão direito precisa abrir ascendendo a led verde, desligando a led vermelha, a amarela também precisa ligar durante a
+sua movimentação e azul acesa para mostrar que o portão está aberto.
+Depois o 
