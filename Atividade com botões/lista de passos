@@ -1,0 +1,5 @@
+Conectar 2 servos (pinos 9 e 10), e 4 botões com resistores(pinos 5, 6, 7 e 11 ) e a saída 5v e GND.
+Ligar led vermelha(pino 2 e 13) quando o portão está fechado de cada lado.
+ligar led verde(3 e 12) 
+botão 1 para abrir a porta esquerda(B1), botão 2 abrir porta direita(B2), botão 3 abrir as duas portas(B3) e botão 4 para fechar as duas portas(B4).
+led amarela(pino 8)durante o movimento dos portões, led azul (pino 4) quando o portão está aberto.
