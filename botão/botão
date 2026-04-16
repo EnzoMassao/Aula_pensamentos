@@ -4,9 +4,44 @@ Haverá também uma LED amarela para mostrar que o portão está em movimento e 
 Quando acionar o botão 1, abrirá a porta esquerda e assim que ascionar o botão2 abrirá a porta da direita. O botão3 será para abrir os dois portões ao mesmo tempo e o botão4 para fechar os dois portões.
 
 lista de passos
-Montar um circuito com arduino, 2 servos, 4 botões, um protoboard e 6 LEDs
-Os servos precisam ligar o solo nos GND, a potencia ligado ao 5v e o sinal ligado as saídas
-começa com as duas leds vermelhas ligadas para mostrar que os portões estão fechados. Após isso, o portão esquerdo deve abrir desligando a led vermelha e ligando a led verde, enquanto o portão se movimenta a led
-amarela ascende e a led azul ascende também para mostrar que o portão está aberto. Depois o portão direito precisa abrir ascendendo a led verde, desligando a led vermelha, a amarela também precisa ligar durante a
-sua movimentação e azul acesa para mostrar que o portão está aberto.
-Depois o 
+Conectar 2 servos (pinos 9 e 10), e 4 botões com resistores(pinos 5, 6, 7 e 11 ) e a saida 5v e GND.
+Ligar led vermelha(pino 2 e 13) quando portão esta fechado de cada lado.
+ligar led verde(3 e 12) 
+botão1 para abrir a porta esquerda(B1), botão2 abrir porta direita(B2), botão3 abrir as duas portas(B3) e botão4 para fechar as duas portas(B4).
+led amarela(pino 8)durante o movimento dos portões, led azul (pino 4) quando o portão está aberto.
+
+pseudocódigo simples:
+Definir servo esquerdo e direito a 0 graus
+Definir pino 2 e 13 como alto
+ler b1 como pino 5
+ler b2 como pino 6
+ler b3 como pino 7
+ler b4 como pino 11
+se b1 acionado
+led vermelha desliga
+led amarela liga
+led verde esquerda liga
+servo esquerdo abre
+led azul liga
+led amarela desliga
+Se b3 acionado
+led vermelha desliga
+led verde liga
+led amarela liga
+servo direito abre
+led azul liga
+led amarela desliga
+se b3 for acionado
+liga led amarela 
+servo direito e esquerdo abrem
+leds verdes ligam
+led azul liga
+leds vermelhas desligam
+led amarela desliga
+ser b4 acionado
+led amarela liga
+servos fecham
+led azul desliga
+leds vermelhas ligam 
+leds verdes desligam
+led amarela desliga
