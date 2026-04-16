@@ -1,1 +1,35 @@
-
+pseudocódigo simples:
+Definir servo esquerdo e direito a 0 graus
+Definir pino 2 e 13 como alto
+ler b1 como pino 5
+ler b2 como pino 6
+ler b3 como pino 7
+ler b4 como pino 11
+se b1 acionado
+led vermelha desliga
+led amarela liga
+led verde esquerda liga
+servo esquerdo abre
+led azul liga
+led amarela desliga
+Se b3 acionado
+led vermelha desliga
+led verde liga
+led amarela liga
+servo direito abre
+led azul liga
+led amarela desliga
+se b3 for acionado
+liga led amarela 
+servo direito e esquerdo abrem
+leds verdes ligam
+led azul liga
+leds vermelhas desligam
+led amarela desliga
+ser b4 acionado
+led amarela liga
+servos fecham
+led azul desliga
+leds vermelhas ligam 
+leds verdes desligam
+led amarela desliga
