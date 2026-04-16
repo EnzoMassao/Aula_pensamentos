@@ -1,1 +1,3 @@
-a
+O sistema consiste em um portão de duas portas que funcione com 4 botões, que quando fechados acione as LEDs vermelhas de cada portão e quando abertos as LED verdes. 
+Haverá também uma LED amarela para mostrar que o portão está em movimento e uma LED azul para mostrar que o portão está aberto.
+Quando acionar o botão 1, abrirá a porta esquerda e assim que acionar o botão 2 abrirá a porta da direita. O botão 3 será para abrir os dois portões ao mesmo tempo e o botão 4 para fechar os dois portões.
