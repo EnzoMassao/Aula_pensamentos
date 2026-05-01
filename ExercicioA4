@@ -1,0 +1,42 @@
+1- Identifique as entradas e saídas do sistema 
+Entradas
+botão ligado ao GND com resistor, 5v e na saida 5 do arduino.
+o primeiro potenciomentro ligado ao GND, 5V e a saida no 0A.
+O segundo potenciômetro ligado ao GND, 5V e a saida no A1.
+
+saídas:
+Servo motor ligado ao GND, 5v e na saida 6 do arduino.
+Uma LED vermelha ligada ao GND com resistor e na saida 2.
+Uma LEd amarela ligada ao GND com resistor e na saida 3.
+Uma LED verde ligada ao GND com resistor e na saida 4.
+
+2- Apresente todos os componentes do sistema e para que eles servem
+
+Botão  para inicar o sistema.
+o potenciometro 1 para definir o tempo de execução( abrir a comporta mais rapida ou mais devagar).
+o petenciometro 2 para definir a posiçao de abertura da comporta em graus.
+um servo motor para simular a comporta mecanica.
+uma led vermelha para demonstrar que o sistema está parado.
+uma led amarela para dizer que o sistema esta em movimento.
+uma ler verde para dizer que finalizou o sistema.
+
+3-Apresente as regras de funcionamento a serem implementadas
+led vermelha ligada
+servo motor em 0 graus
+definir potenciometro de tempo
+definir potenciometro de abertura
+ler botão
+se botão acionado 
+led vermelha desliga
+led amarela liga
+servo motor abre
+aguarda o tempo
+led amarela desliga
+led verde liga
+
+Explique como você utilizaria estruturas if para controlar o sistema
+se botão nao acionado a led vermelha ligada
+se botão acionado, desliga led vermelha e liga LED amarela
+se o tempo de execução acabou desliga a LED amarela e liga LED verde
+
+
