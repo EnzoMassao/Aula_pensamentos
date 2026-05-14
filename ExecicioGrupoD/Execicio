@@ -34,5 +34,5 @@ aguarda o tempo
 led amarela desliga
 led verde liga
 
-Explique como você utilizaria estruturas if para controlar o sistema
+4)Explique como você utilizaria estruturas if para controlar o sistema
 se botão for acionado, executa o sistema, led amarela liga, vermelha desliga e controle de execução para que o sistema ignore os potenciômetros nao mexerem durante a execução
